@@ -55,7 +55,7 @@ root = tk.Tk()
 root.title("Simple Password Generator")
 root.geometry("331x300")
 root.resizable(False, False)
-root.iconbitmap("assets\icon.ico")
+root.iconbitmap("icon.ico")
 
 # Setting the dark theme colors
 bg_color = "#2e2e2e"
