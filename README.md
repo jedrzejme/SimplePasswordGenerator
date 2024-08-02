@@ -30,12 +30,12 @@
 **What is this?** Simple script written in Python that allows you to generate password with options set by you.
 
 **How to use it?**
-* **Using Python:** firstly, you need to install [Python](https://www.python.org/downloads/). After that, you have to install required libraries listed in [requirements.txt](https://github.com/jedrzejme/SimplePasswordGenerator/requirements.txt).
+* **Using Python:** firstly, you need to install [Python](https://www.python.org/downloads/). After that, you have to install required libraries listed in [requirements.txt](https://github.com/jedrzejme/SimplePasswordGenerator/blob/main/requirements.txt).
 * [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
 
 **What did I use?**
 * [Python](https://www.python.org/)
-* [Python libraries](/requirements.txt)
+* [Python libraries](https://github.com/jedrzejme/SimplePasswordGenerator/blob/main/requirements.txt)
 * [Coding](https://code.visualstudio.com/)
 * [Git management](https://desktop.github.com/)
 
