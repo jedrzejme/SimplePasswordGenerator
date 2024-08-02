@@ -7,6 +7,7 @@ import random
 import string
 import tkinter as tk
 from tkinter import messagebox
+import webbrowser
 
 # Define function for generating password
 def generate_password(length, uppercase, lowercase, digits, special):
@@ -50,10 +51,18 @@ def copy_to_clipboard():
     except Exception as e:
         messagebox.showerror("Error", f"Could not copy to clipboard: {str(e)}")
 
+# Define opening web version
+def OpenWebVersion():
+    webbrowser.open_new("https://simple-password-generator.jbs.ovh/")
+
+# Define opening source code
+def OpenSourceCode():
+    webbrowser.open_new("https://github.com/jedrzejme/SimplePasswordGenerator")
+
 # Creating the main application window
 root = tk.Tk()
 root.title("Simple Password Generator")
-root.geometry("331x300")
+root.geometry("330x380")
 root.resizable(False, False)
 root.iconbitmap("icon.ico")
 
@@ -65,27 +74,30 @@ entry_bg_color = "#3e3e3e"
 root.configure(bg=bg_color)
 
 # Adding widgets to the window
-tk.Label(root, text="Password length:", bg=bg_color, fg=fg_color).grid(row=0, column=0, padx=10, pady=10)
+tk.Button(root, text="Web Version", command=OpenWebVersion, bg=button_color, fg=fg_color).grid(row=0, column=0, columnspan=2, padx=10, pady=10)
+tk.Button(root, text="GitHub Project", command=OpenSourceCode, bg=button_color, fg=fg_color).grid(row=1, column=0, columnspan=2, padx=10, pady=10)
+
+tk.Label(root, text="Password length:", bg=bg_color, fg=fg_color).grid(row=2, column=0, padx=10, pady=10)
 entry_length = tk.Entry(root, bg=entry_bg_color, fg=fg_color, insertbackground=fg_color)
-entry_length.grid(row=0, column=1, padx=10, pady=10)
+entry_length.grid(row=2, column=1, padx=10, pady=10)
 
 var_uppercase = tk.BooleanVar()
 var_lowercase = tk.BooleanVar()
 var_digits = tk.BooleanVar()
 var_special = tk.BooleanVar()
 
-tk.Checkbutton(root, text="Uppercase letters", variable=var_uppercase, bg=bg_color, fg=fg_color, selectcolor=button_color).grid(row=1, column=0, padx=10, pady=5, sticky="w")
-tk.Checkbutton(root, text="Lowercase letters", variable=var_lowercase, bg=bg_color, fg=fg_color, selectcolor=button_color).grid(row=1, column=1, padx=10, pady=5, sticky="w")
-tk.Checkbutton(root, text="Digits", variable=var_digits, bg=bg_color, fg=fg_color, selectcolor=button_color).grid(row=2, column=0, padx=10, pady=5, sticky="w")
-tk.Checkbutton(root, text="Special characters", variable=var_special, bg=bg_color, fg=fg_color, selectcolor=button_color).grid(row=2, column=1, padx=10, pady=5, sticky="w")
+tk.Checkbutton(root, text="Uppercase letters", variable=var_uppercase, bg=bg_color, fg=fg_color, selectcolor=button_color).grid(row=3, column=0, padx=10, pady=5, sticky="w")
+tk.Checkbutton(root, text="Lowercase letters", variable=var_lowercase, bg=bg_color, fg=fg_color, selectcolor=button_color).grid(row=3, column=1, padx=10, pady=5, sticky="w")
+tk.Checkbutton(root, text="Digits", variable=var_digits, bg=bg_color, fg=fg_color, selectcolor=button_color).grid(row=4, column=0, padx=10, pady=5, sticky="w")
+tk.Checkbutton(root, text="Special characters", variable=var_special, bg=bg_color, fg=fg_color, selectcolor=button_color).grid(row=4, column=1, padx=10, pady=5, sticky="w")
 
-tk.Button(root, text="Generate", command=on_generate, bg=button_color, fg=fg_color).grid(row=3, column=0, columnspan=2, padx=10, pady=10)
+tk.Button(root, text="Generate", command=on_generate, bg=button_color, fg=fg_color).grid(row=5, column=0, columnspan=2, padx=10, pady=10)
 
-tk.Label(root, text="Generated password:", bg=bg_color, fg=fg_color).grid(row=4, column=0, padx=10, pady=10, sticky="w")
+tk.Label(root, text="Generated password:", bg=bg_color, fg=fg_color).grid(row=6, column=0, padx=10, pady=10, sticky="w")
 entry_password = tk.Entry(root, width=50, bg=entry_bg_color, fg=fg_color, insertbackground=fg_color)
-entry_password.grid(row=5, column=0, padx=10, pady=10, sticky="e", columnspan=2)
+entry_password.grid(row=7, column=0, padx=10, pady=10, sticky="e", columnspan=2)
 
-tk.Button(root, text="Copy to Clipboard", command=copy_to_clipboard, bg=button_color, fg=fg_color).grid(row=6, column=0, columnspan=2, padx=10, pady=10)
+tk.Button(root, text="Copy to Clipboard", command=copy_to_clipboard, bg=button_color, fg=fg_color).grid(row=8, column=0, columnspan=2, padx=10, pady=10)
 
 # Starting the main application loop
 root.mainloop()
