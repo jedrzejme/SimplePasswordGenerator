@@ -32,7 +32,7 @@
 **How to use it?**
 * **Using Python:** firstly, you need to install [Python](https://www.python.org/downloads/). After that, you have to install required libraries listed in [requirements.txt](https://github.com/jedrzejme/SimplePasswordGenerator/blob/main/requirements.txt).
 * [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
-* [**Using web version**](simple-password-generator.jbs.ovh)
+* [**Using web version**](https://simple-password-generator.jbs.ovh)
 
 **What did I use?**
 * [Python](https://www.python.org/)

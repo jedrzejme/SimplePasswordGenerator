@@ -54,3 +54,21 @@ body {
     background-color: #414141;
     border-color: #04ff2e;
 }
+
+.github-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+.github-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
