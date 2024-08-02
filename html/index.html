@@ -1,0 +1,39 @@
+<!-- Simple Password Generator -->
+<!-- Author: Jędrzej Bakalarski -->
+<!-- Github: https://github.com/jedrzejme/SimplePasswordGenerator -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <img src="favicon.ico" alt="favicon">
+        <h1>Simple Password Generator</h1>
+        <label for="length">Password length:</label>
+        <input type="number" id="length" class="input" min="1" max="128" value="8">
+
+        <div class="checkbox-group">
+            <label><input type="checkbox" id="uppercase"> Uppercase letters</label>
+            <label><input type="checkbox" id="lowercase"> Lowercase letters</label>
+            <label><input type="checkbox" id="digits"> Digits</label>
+            <label><input type="checkbox" id="special"> Special characters</label>
+        </div>
+
+        <button id="generate" class="button">Generate</button>
+
+        <br>
+
+        <label for="password">Generated password:</label>
+        <input type="text" id="password" class="input" readonly>
+
+        <button id="copy" class="button">Copy to Clipboard</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

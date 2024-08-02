@@ -1,0 +1,56 @@
+/* Simple Password Generator */
+/* Author: Jędrzej Bakalarski */
+/* Github: https://github.com/jedrzejme/SimplePasswordGenerator */
+
+body {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #414141;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.input {
+    background-color: #3e3e3e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.checkbox-group {
+    text-align: left;
+}
+
+.checkbox-group label {
+    display: block;
+    margin: 5px 0;
+}
+
+.button {
+    background-color: #414141;
+    color: #ffffff;
+    border: 2px solid #008817;
+    border-radius: 12px;  /* Added border-radius */
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #414141;
+    border-color: #04ff2e;
+}

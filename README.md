@@ -27,11 +27,12 @@
 
 <br>
 
-**What is this?** Simple script written in Python that allows you to generate password with options set by you.
+**What is this?** Piece of software written in Python, also available in web version, that allows you to generate password with options set by you.
 
 **How to use it?**
 * **Using Python:** firstly, you need to install [Python](https://www.python.org/downloads/). After that, you have to install required libraries listed in [requirements.txt](https://github.com/jedrzejme/SimplePasswordGenerator/blob/main/requirements.txt).
 * [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
+* [**Using web version**](simple-password-generator.jbs.ovh)
 
 **What did I use?**
 * [Python](https://www.python.org/)
@@ -42,6 +43,7 @@
 ## Features
 * Generating password with length, usage of special characters, digits, uppercase and lowercase set by you
 * Copying generated password by pressing button
+* Available in Python and web version
 
 ## Support
 <p><a href="https://www.buymeacoffee.com/jedrzejme"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="jedrzejme" /></a><a href="https://ko-fi.com/jedrzejme"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="jedrzejme" /></a></p><br><br><br>
