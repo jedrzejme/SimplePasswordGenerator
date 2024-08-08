@@ -1,4 +1,0 @@
-random
-string
-tkinter
-webbrowser
