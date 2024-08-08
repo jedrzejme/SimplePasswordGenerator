@@ -72,3 +72,19 @@ body {
     height: 24px;
     margin-right: 8px;
 }
+
+.support-me-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.support-me-link:hover {
+    text-decoration: underline;
+}
+
+.support-me-icon {
+    width: 150px;
+}
