@@ -85,6 +85,13 @@ body {
     text-decoration: underline;
 }
 
-.support-me-icon {
-    width: 150px;
+.support-me-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.support-me-container img {
+    width: 50%;
+    height: auto;
 }
