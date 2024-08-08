@@ -56,8 +56,8 @@ def OpenWebVersion():
     webbrowser.open_new("https://simple-password-generator.jbs.ovh/")
 
 # Define opening source code
-def OpenSourceCode():
-    webbrowser.open_new("https://github.com/jedrzejme/SimplePasswordGenerator")
+def OpenSupportMe():
+    webbrowser.open_new("https://support.jedrzej.me/")
 
 # Creating the main application window
 root = tk.Tk()
@@ -75,7 +75,7 @@ root.configure(bg=bg_color)
 
 # Adding widgets to the window
 tk.Button(root, text="Web Version", command=OpenWebVersion, bg=button_color, fg=fg_color).grid(row=0, column=0, columnspan=2, padx=10, pady=10)
-tk.Button(root, text="GitHub Project", command=OpenSourceCode, bg=button_color, fg=fg_color).grid(row=1, column=0, columnspan=2, padx=10, pady=10)
+tk.Button(root, text="Support Me", command=OpenSupportMe, bg=button_color, fg=fg_color).grid(row=1, column=0, columnspan=2, padx=10, pady=10)
 
 tk.Label(root, text="Password length:", bg=bg_color, fg=fg_color).grid(row=2, column=0, padx=10, pady=10)
 entry_length = tk.Entry(root, bg=entry_bg_color, fg=fg_color, insertbackground=fg_color)
