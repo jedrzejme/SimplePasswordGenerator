@@ -27,21 +27,21 @@
 
 <br>
 
-**What is this?** Piece of software written in Python, also available in web version, that allows you to generate password with options set by you.
+**❓ What is this?** Piece of software written in Python, also available in web version, that allows you to generate password with options set by you.
 
-**How to use it?**
+**❓ How to use it?**
 * [**Using web version**](https://simple-password-generator.jbs.ovh)
 * [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
 * [**Using Python**](#using-python-to-run-simple-password-generator)
 
 
-**What did I use?**
+**❓ What did I use?**
 * [Python](https://www.python.org/)
 * [Python libraries](https://github.com/jedrzejme/SimplePasswordGenerator/blob/main/requirements.txt)
 * [Coding](https://code.visualstudio.com/)
 * [Git management](https://desktop.github.com/)
 
-## Using Python to run Simple Password Generator
+## 🐍 Using Python to run Simple Password Generator
 1) Install Python and Git
 2) Clone this repository and enter its directory:
 ```
@@ -58,10 +58,10 @@ python main.py
 ```
 6) It works!
 
-## Features
+## 🚀 Features
 * Generating password with length, usage of special characters, digits, uppercase and lowercase set by you
 * Copying generated password by pressing button
 * Available in Python and web version
 
-## Support
+## 💲 Support
 <p><a href="https://support.jedrzej.me/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/jedrzejme/jedrzejme/main/assets/supportme.svg" height="50" width="210" alt="jedrzejme" /></a></p>
