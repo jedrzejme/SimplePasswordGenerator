@@ -42,7 +42,7 @@
 * [Git management](https://desktop.github.com/)
 
 ## Using Python to run Simple Password Generator
-1) Install python and git
+1) Install Python and Git
 2) Clone this repository and enter its directory:
 ```
 git clone https://github.com/jedrzejme/SimplePasswordGenerator.git
