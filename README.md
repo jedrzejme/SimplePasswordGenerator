@@ -30,7 +30,7 @@
 **What is this?** Piece of software written in Python, also available in web version, that allows you to generate password with options set by you.
 
 **How to use it?**
-* **Using Python:** firstly, you need to install [Python](https://www.python.org/downloads/). After that, you have to install required libraries listed in [requirements.txt](https://github.com/jedrzejme/SimplePasswordGenerator/blob/main/requirements.txt).
+* [**Using Python**](#using-python-to-run-simple-password-generator)
 * [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
 * [**Using web version**](https://simple-password-generator.jbs.ovh)
 
@@ -39,6 +39,22 @@
 * [Python libraries](https://github.com/jedrzejme/SimplePasswordGenerator/blob/main/requirements.txt)
 * [Coding](https://code.visualstudio.com/)
 * [Git management](https://desktop.github.com/)
+
+## Using Python to run Simple Password Generator
+1) Install python and git
+2) Clone this repository and enter its directory:
+```
+git clone https://github.com/jedrzejme/SimplePasswordGenerator.git
+```
+3) Enter python directory in this repository
+4) Install requirements:
+```
+python -m pip install -r requirements.txt
+```
+5) Run main.py:
+```
+python main.py
+```
 
 ## Features
 * Generating password with length, usage of special characters, digits, uppercase and lowercase set by you
