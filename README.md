@@ -30,9 +30,10 @@
 **What is this?** Piece of software written in Python, also available in web version, that allows you to generate password with options set by you.
 
 **How to use it?**
-* [**Using Python**](#using-python-to-run-simple-password-generator)
-* [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
 * [**Using web version**](https://simple-password-generator.jbs.ovh)
+* * [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
+* [**Using Python**](#using-python-to-run-simple-password-generator)
+
 
 **What did I use?**
 * [Python](https://www.python.org/)
