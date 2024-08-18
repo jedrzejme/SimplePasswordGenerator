@@ -56,6 +56,7 @@ python -m pip install -r requirements.txt
 ```
 python main.py
 ```
+6) It works!
 
 ## Features
 * Generating password with length, usage of special characters, digits, uppercase and lowercase set by you
