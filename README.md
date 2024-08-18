@@ -31,7 +31,7 @@
 
 **How to use it?**
 * [**Using web version**](https://simple-password-generator.jbs.ovh)
-* * [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
+* [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
 * [**Using Python**](#using-python-to-run-simple-password-generator)
 
 
