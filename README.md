@@ -32,7 +32,7 @@
 **❓ How to use it?**
 * [**Using web version**](https://simple-password-generator.jbs.ovh)
 * [**Using .exe file**](https://github.com/jbakalarski/SimplePasswordGenerator/releases)
-* [**Using Python**](#using-python-to-run-simple-password-generator)
+* [**Using Python**](#-using-python-to-run-simple-password-generator)
 
 
 **❓ What did I use?**
