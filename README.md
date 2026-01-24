@@ -11,17 +11,17 @@
 </h1>
 
 <div align = 'center'>
-    <a href = 'https://github.com/jedrzejme/SimplePasswordGenerator/'>
-        <img src = 'https://img.shields.io/github/stars/jedrzejme/SimplePasswordGenerator?style=for-the-badge&color=%23cfb002'/>
+    <a href = 'https://github.com/jbakalarski/SimplePasswordGenerator/'>
+        <img src = 'https://img.shields.io/github/stars/jbakalarski/SimplePasswordGenerator?style=for-the-badge&color=%23cfb002'/>
     </a>
-    <a href = 'https://github.com/jedrzejme/SimplePasswordGenerator/tags'>
-        <img src = 'https://img.shields.io/github/v/tag/jedrzejme/SimplePasswordGenerator?style=for-the-badge&label=version'/>
+    <a href = 'https://github.com/jbakalarski/SimplePasswordGenerator/tags'>
+        <img src = 'https://img.shields.io/github/v/tag/jbakalarski/SimplePasswordGenerator?style=for-the-badge&label=version'/>
     </a>
-    <a href = 'https://github.com/jedrzejme/SimplePasswordGenerator/issues'>
-        <img src = 'https://img.shields.io/github/issues/jedrzejme/SimplePasswordGenerator?style=for-the-badge&color=%23ff6f00'/>
+    <a href = 'https://github.com/jbakalarski/SimplePasswordGenerator/issues'>
+        <img src = 'https://img.shields.io/github/issues/jbakalarski/SimplePasswordGenerator?style=for-the-badge&color=%23ff6f00'/>
     </a>
-    <a href = 'https://github.com/jedrzejme/SimplePasswordGenerator/pulls'>
-        <img src = 'https://img.shields.io/github/issues-pr/jedrzejme/SimplePasswordGenerator?style=for-the-badge'/>
+    <a href = 'https://github.com/jbakalarski/SimplePasswordGenerator/pulls'>
+        <img src = 'https://img.shields.io/github/issues-pr/jbakalarski/SimplePasswordGenerator?style=for-the-badge'/>
     </a>
 </div>
 
@@ -31,13 +31,12 @@
 
 **❓ How to use it?**
 * [**Using web version**](https://simple-password-generator.jbs.ovh)
-* [**Using .exe file**](https://github.com/jedrzejme/SimplePasswordGenerator/releases)
+* [**Using .exe file**](https://github.com/jbakalarski/SimplePasswordGenerator/releases)
 * [**Using Python**](#using-python-to-run-simple-password-generator)
 
 
 **❓ What did I use?**
 * [Python](https://www.python.org/)
-* [Python libraries](https://github.com/jedrzejme/SimplePasswordGenerator/blob/main/requirements.txt)
 * [Coding](https://code.visualstudio.com/)
 * [Git management](https://desktop.github.com/)
 
@@ -45,7 +44,7 @@
 1) Install Python and Git
 2) Clone this repository and enter its directory:
 ```
-git clone https://github.com/jedrzejme/SimplePasswordGenerator.git
+git clone https://github.com/jbakalarski/SimplePasswordGenerator.git
 ```
 3) Enter python directory in this repository
 4) Install requirements:
@@ -64,4 +63,4 @@ python main.py
 * Available in Python and web version
 
 ## 💲 Support
-<p><a href="https://support.jedrzej.me/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/jedrzejme/jedrzejme/main/assets/supportme.svg" height="50" width="210" alt="jedrzejme" /></a></p>
+<p><a href="https://support.jedrzej.me/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/jbakalarski/jbakalarski/main/assets/supportme.png" width="172" height="56" alt="jbakalarski" /></a></p>
